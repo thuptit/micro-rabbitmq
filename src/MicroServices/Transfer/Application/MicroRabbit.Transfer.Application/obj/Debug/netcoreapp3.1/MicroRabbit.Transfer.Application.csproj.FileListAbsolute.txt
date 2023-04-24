@@ -1,0 +1,17 @@
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.deps.json
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Domain.Core.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Data.pdb
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Domain.Core.pdb
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csproj.AssemblyReference.cache
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.AssemblyInfoInputs.cache
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.AssemblyInfo.cs
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csproj.CoreCompileInputs.cache
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.csproj.CopyComplete
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Application\MicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb

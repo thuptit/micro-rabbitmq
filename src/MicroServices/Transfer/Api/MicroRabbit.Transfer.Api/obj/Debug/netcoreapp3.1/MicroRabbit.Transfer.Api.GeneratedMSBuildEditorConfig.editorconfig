@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Transfer.Api
+build_property.ProjectDir = D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\

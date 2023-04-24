@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "GXHOM/4Y2FwgrQo/llADOsjBhIl5rBcohGWK2MqATUcqypJs9YSFEMQZetTFPjzfUprQHLIHYS+A/YyqT3Jl1g==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.0\\fluentvalidation.aspnetcore.10.3.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.0\\fluentvalidation.dependencyinjectionextensions.10.3.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

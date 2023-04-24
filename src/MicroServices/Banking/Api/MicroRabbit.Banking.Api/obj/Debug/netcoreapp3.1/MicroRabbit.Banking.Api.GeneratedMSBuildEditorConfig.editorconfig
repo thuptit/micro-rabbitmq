@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Banking.Api
+build_property.ProjectDir = D:\projects\MicroRabbit\src\MicroServices\Banking\Api\MicroRabbit.Banking.Api\

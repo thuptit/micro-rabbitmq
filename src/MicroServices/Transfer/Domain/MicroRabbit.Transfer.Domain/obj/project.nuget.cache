@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bbVXWTSq0L3gu4TZfqavTaOckTp3nS9Y1UsNR2fJ9k2glnjw4ZpyJMLpTkEHaYvQ74DbQjWxD+NtXQMhx4Py2Q==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

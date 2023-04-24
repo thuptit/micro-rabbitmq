@@ -1,0 +1,883 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\MicroRabbit.Transfer.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj",
+        "projectName": "MicroRabbit.Domain.Core",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.CrossCutting.Bus.csproj",
+        "projectName": "MicroRabbit.Infra.CrossCutting.Bus",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.CrossCutting.IoC.csproj",
+        "projectName": "MicroRabbit.Infra.CrossCutting.IoC",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.Bus\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.CrossCutting.Bus.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\MicroRabbit.Banking.Data.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\MicroRabbit.Banking.Data.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\MicroRabbit.Transfer.Application.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\MicroRabbit.Transfer.Application.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj",
+        "projectName": "MicroRabbit.Banking.Application",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\MicroRabbit.Banking.Application.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Application\\MicroRabbit.Banking.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\MicroRabbit.Banking.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\MicroRabbit.Banking.Data.csproj",
+        "projectName": "MicroRabbit.Banking.Data",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\MicroRabbit.Banking.Data.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Data\\MicroRabbit.Banking.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
+        "projectName": "MicroRabbit.Banking.Domain",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Banking\\Domain\\MicroRabbit.Banking.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\MicroRabbit.Transfer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\MicroRabbit.Transfer.Api.csproj",
+        "projectName": "MicroRabbit.Transfer.Api",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\MicroRabbit.Transfer.Api.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Infra.CrossCutting.IoC\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.CrossCutting.IoC.csproj"
+              },
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\MicroRabbit.Transfer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\MicroRabbit.Transfer.Application.csproj",
+        "projectName": "MicroRabbit.Transfer.Application",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\MicroRabbit.Transfer.Application.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Application\\MicroRabbit.Transfer.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj",
+        "projectName": "MicroRabbit.Transfer.Data",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Data\\MicroRabbit.Transfer.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj",
+        "projectName": "MicroRabbit.Transfer.Domain",
+        "projectPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj",
+        "packagesPath": "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Domain\\MicroRabbit.Transfer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\laptopkhanhtran.vn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "D:\\projects\\MicroRabbit\\src\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
