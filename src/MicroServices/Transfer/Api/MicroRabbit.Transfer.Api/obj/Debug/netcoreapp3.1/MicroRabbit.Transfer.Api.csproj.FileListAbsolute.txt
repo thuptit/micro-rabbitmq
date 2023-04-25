@@ -1,9 +1,3 @@
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.csproj.AssemblyReference.cache
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.AssemblyInfoInputs.cache
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.AssemblyInfo.cs
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.csproj.CoreCompileInputs.cache
-D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\appsettings.json
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.exe
@@ -46,6 +40,8 @@ D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Serilog.dll
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
@@ -97,7 +93,13 @@ D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.Bus.pdb
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Application.pdb
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.csproj.AssemblyReference.cache
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.AssemblyInfoInputs.cache
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.AssemblyInfo.cs
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.csproj.CoreCompileInputs.cache
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\MicroRabbit.Transfer.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\staticwebassets\MicroRabbit.Transfer.Api.StaticWebAssets.Manifest.cache
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\staticwebassets\MicroRabbit.Transfer.Api.StaticWebAssets.Pack.cache
 D:\projects\MicroRabbit\src\Microservices\Transfer\Api\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.MicroRabbit.Transfer.Api.Microsoft.AspNetCore.StaticWebAssets.props

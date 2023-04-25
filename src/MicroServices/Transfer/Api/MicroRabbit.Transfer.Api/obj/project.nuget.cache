@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Eq3WkT+FpQmy5ZaY0+hea8ECYi0ZDQEY6IWRKX1kzFDwHUmj/JR8ckLe1s6lS4f/NgubOpMxP2lsayKr7de8DA==",
+  "dgSpecHash": "nZ9UnMG7UhyKK36dWg2NgWDnPvig49c6PrOsVk1BE1lwjWTR7rJX4SqB6K76YrEMmXjAOdZHsNjZb++XJpkPKw==",
   "success": true,
   "projectFilePath": "D:\\projects\\MicroRabbit\\src\\Microservices\\Transfer\\Api\\MicroRabbit.Transfer.Api\\MicroRabbit.Transfer.Api.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\npgsql\\5.0.0\\npgsql.5.0.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.0\\npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
@@ -105,6 +107,7 @@
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
+    "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\laptopkhanhtran.vn\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

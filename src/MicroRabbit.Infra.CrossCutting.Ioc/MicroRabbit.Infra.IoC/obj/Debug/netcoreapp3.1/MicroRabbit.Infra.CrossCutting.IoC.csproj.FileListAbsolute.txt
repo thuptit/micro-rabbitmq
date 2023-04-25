@@ -1,8 +1,3 @@
-D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.csproj.AssemblyReference.cache
-D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
-D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
-D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.AssemblyInfo.cs
-D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.deps.json
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.dll
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.pdb
@@ -22,6 +17,11 @@ D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Transfer.Domain.pdb
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Banking.Domain.pdb
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Domain.Core.pdb
+D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.csproj.AssemblyReference.cache
+D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.AssemblyInfo.cs
+D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.csproj.CopyComplete
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.dll
 D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.CrossCutting.IoC.pdb

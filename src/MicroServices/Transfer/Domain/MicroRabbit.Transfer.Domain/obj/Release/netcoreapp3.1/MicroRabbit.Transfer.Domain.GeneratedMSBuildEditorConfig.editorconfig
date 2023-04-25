@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Transfer.Domain
+build_property.ProjectDir = D:\projects\MicroRabbit\src\Microservices\Transfer\Domain\MicroRabbit.Transfer.Domain\

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Banking.Data
+build_property.ProjectDir = D:\projects\MicroRabbit\src\Microservices\Banking\Data\MicroRabbit.Banking.Data\

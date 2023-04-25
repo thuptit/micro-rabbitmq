@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Infra.CrossCutting.Bus
+build_property.ProjectDir = D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.Bus\MicroRabbit.Infra.Bus\

@@ -6,7 +6,6 @@ namespace MicroRabbit.Banking.Data.Context
 {
     public class BankingDbContext : DbContext
     {
-        public const string DEFAULT_SCHEMA = "dbo";
         public BankingDbContext(DbContextOptions options) : base(options)
         {
         }

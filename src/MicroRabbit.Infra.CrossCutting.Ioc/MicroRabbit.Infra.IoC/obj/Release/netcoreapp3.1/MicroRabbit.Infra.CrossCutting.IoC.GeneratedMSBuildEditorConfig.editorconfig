@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroRabbit.Infra.CrossCutting.IoC
+build_property.ProjectDir = D:\projects\MicroRabbit\src\MicroRabbit.Infra.CrossCutting.IoC\MicroRabbit.Infra.IoC\

@@ -43,7 +43,9 @@ namespace MicroRabbit.Infra.CrossCutting.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = _hostName
+                HostName = _hostName,
+                UserName = "thunv",
+                Password = "Thutrang2709"
             };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
@@ -86,7 +88,9 @@ namespace MicroRabbit.Infra.CrossCutting.Bus
             var factory = new ConnectionFactory()
             {
                 HostName = _hostName,
-                DispatchConsumersAsync = true
+                DispatchConsumersAsync = true,
+                UserName = "thunv",
+                Password = "Thutrang2709"
             };
 
             var connection = factory.CreateConnection();

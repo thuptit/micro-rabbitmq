@@ -32,7 +32,7 @@ namespace MicroRabbit.Transfer.Api
         {
             services.AddDbContext<TransferDbContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("TransferDbConnection"));
+                options.UseNpgsql(configuration.GetConnectionString("TransferDbConnection"));
             });
             return services;
         }

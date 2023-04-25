@@ -29,7 +29,7 @@ namespace MicroRabbit.Banking.Api
         {
             services.AddDbContext<BankingDbContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("BankingDbConnection"));
+                options.UseNpgsql(configuration.GetConnectionString("BankingDbConnection"));
             });
             return services;
         }
