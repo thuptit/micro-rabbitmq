@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("2691bd29-1cf3-4756-94b1-c1e09efc78cf")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroRabbit.Banking.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
