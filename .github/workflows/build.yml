@@ -13,16 +13,16 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet: [ '2.1.x', '3.1.x', '5.0.x' ]
-    name: Dotnet ${{ matrix.dotnet }} sample
+    runs-on: self-hosted
+
     steps:
       - uses: actions/checkout@v3
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: ${{ matrix.dotnet }}
-      - name: Execute dotnet
-        run: dotnet build <my project>
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Build image 
+        run: |
+          cd src/Microservices/Banking/Api/MicroRabbit.Banking.Api
+          docker build -t bank-service .
