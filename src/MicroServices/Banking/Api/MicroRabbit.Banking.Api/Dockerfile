@@ -14,9 +14,6 @@ COPY ["MicroRabbit.Domain.Core/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.c
 COPY ["Microservices/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj", "Microservices/Banking/Application/MicroRabbit.Banking.Application/"]
 COPY ["Microservices/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj", "Microservices/Banking/Domain/MicroRabbit.Banking.Domain/"]
 COPY ["Microservices/Banking/Data/MicroRabbit.Banking.Data/MicroRabbit.Banking.Data.csproj", "Microservices/Banking/Data/MicroRabbit.Banking.Data/"]
-COPY ["Microservices/Transfer/Application/MicroRabbit.Transfer.Application/MicroRabbit.Transfer.Application.csproj", "Microservices/Transfer/Application/MicroRabbit.Transfer.Application/"]
-COPY ["Microservices/Transfer/Data/MicroRabbit.Transfer.Data/MicroRabbit.Transfer.Data.csproj", "Microservices/Transfer/Data/MicroRabbit.Transfer.Data/"]
-COPY ["Microservices/Transfer/Domain/MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj", "Microservices/Transfer/Domain/MicroRabbit.Transfer.Domain/"]
 RUN dotnet restore "MicroServices/Banking/Api/MicroRabbit.Banking.Api/MicroRabbit.Banking.Api.csproj"
 COPY . .
 WORKDIR "/src/MicroServices/Banking/Api/MicroRabbit.Banking.Api"
