@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build image 
-        run: docker build . --file Banking/Api/MicroRabbit.Banking.Api --tag my-image-name:$(date +%s)
+        run: docker build . --file Banking/Api/MicroRabbit.Banking.Api/Dockerfile --tag my-image-name:$(date +%s)
