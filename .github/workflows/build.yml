@@ -18,5 +18,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build image 
-        run: |
-          docker build . -t my-microservice:latest
+        run: docker build . --file src/MicroServices/Banking/Api/MicroRabbit.Banking.Api --tag my-image-name:$(date +%s)
