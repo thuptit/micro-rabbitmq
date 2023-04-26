@@ -6,7 +6,7 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
+WORKDIR ./src
 COPY ["MicroServices/Banking/Api/MicroRabbit.Banking.Api/MicroRabbit.Banking.Api.csproj", "MicroServices/Banking/Api/MicroRabbit.Banking.Api/"]
 COPY ["MicroRabbit.Infra.CrossCutting.IoC/MicroRabbit.Infra.IoC/MicroRabbit.Infra.CrossCutting.IoC.csproj", "MicroRabbit.Infra.CrossCutting.IoC/MicroRabbit.Infra.IoC/"]
 COPY ["MicroRabbit.Infra.CrossCutting.Bus/MicroRabbit.Infra.Bus/MicroRabbit.Infra.CrossCutting.Bus.csproj", "MicroRabbit.Infra.CrossCutting.Bus/MicroRabbit.Infra.Bus/"]
