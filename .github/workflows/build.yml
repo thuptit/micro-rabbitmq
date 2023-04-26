@@ -17,11 +17,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Setup dotnet
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
       - name: Build image 
         run: |
           cd src/Microservices/Banking/Api/MicroRabbit.Banking.Api
